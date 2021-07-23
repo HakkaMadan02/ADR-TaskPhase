@@ -1,0 +1,18 @@
+(x,y)
+x is threshold
+y is output
+
+cv.THRESH_BINARY
+if the pixel value is greater that the threshold value, the pixel gets converted to output value, otherwise it becomes (0), or black
+
+cv.THRESH_BINARY_INV
+pixel gets converted to 0 if above the threshold, otherwise the output
+
+cv.THRESH_TRUNC
+if the pixel is above threshold, it will come down to the threshold pixel. Otherwise, it will remain as it was before
+
+cv.THRESH_TOZERO
+if the pixel is above the threshold, it will remain as it was before. Otherwise it will be turned to black (0)
+
+cv.THRESH_TOZERO_INV
+if the pixel is above threshold, then it goes to black. Otherwise it will remain as it is
